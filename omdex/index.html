@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sam Rhee</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-title">Sam Rhee</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="tutoring.html">Tutoring</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <h1>Test.</h1>
+            <p class="hero-tagline">
+              Test.
+            </p>
+            <div class="hero-actions">
+              <a href="tutoring.html" class="btn primary">Learn about tutoring</a>
+              <a href="about.html" class="btn ghost">More about me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <h2>Test</h2>
+          <p>
+           Test
+          </p>
+          <a href="contact.html" class="btn primary">Contact & availability</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Your Name</span>
+        <a href="mailto:you@example.com">you@example.com</a>
+      </div>
+    </footer>
+
+    <script>
+      // Simple current year for the footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
